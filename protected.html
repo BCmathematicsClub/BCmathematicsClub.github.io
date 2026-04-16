@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Drive Tools</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <main>
+    <h1>Drive Tools</h1>
+    <div>
+      <label>Folder name: <input id="folderName"></label>
+      <button id="createFolder">Create Folder</button>
+      <p id="folderResult"></p>
+    </div>
+
+    <hr>
+
+    <div>
+      <label>Folder ID: <input id="docFolderId"></label><br>
+      <label>Doc title template (use {{date}} {{phrase}}): <input id="titleTemplate"></label><br>
+      <label>Date (YYYY-MM-DD): <input id="date"></label><br>
+      <label>Phrase: <input id="phrase"></label><br>
+      <label>Content: <textarea id="content" rows="6"></textarea></label><br>
+      <button id="createDoc">Create Doc</button>
+      <p id="docResult"></p>
+    </div>
+  </main>
+
+  <script src="/js/drive.js"></script>
+</body>
+</html>
